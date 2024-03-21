@@ -1,10 +1,9 @@
-import { HeaderMain, HeaderSecondary } from "app/components";
+import { HeaderMain } from "app/components";
 
 export default function Home() {
   return (
     <div>
-      {/* <HeaderMain /> */}
-      <HeaderSecondary />
+      <HeaderMain />
     </div>
   )
 }
