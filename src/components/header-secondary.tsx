@@ -8,7 +8,6 @@ import Link from 'next/link'
 import { Drawer } from './drawer'
 import { BurgerMenu } from './burger-menu'
 import { Navbar } from './navbar'
-import { Hero } from './hero'
 
 export const HeaderSecondary = () => {
   const pathname = usePathname()
